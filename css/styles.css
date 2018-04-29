@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px !important;
+}
+h2,h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:#ced8db;
+}
+.primary{
+    background-color: #448fa3;
+}
+.secondary{
+    background-color: #d7263d;
+}
+.Rojo{
+    color: #d7263d !important;
+}
+.light{
+    background-color: #0090d8;
+}
+.dark{
+    background-color: #02182b;
+}
+.grey{
+    background-color: #ced8db;
+}
+#obtenYa img{
+    height: 450px;
+    width: 400px;
+}
+/*Header*/
+header{
+    background-image: url("../images/bannerPrincipal.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+
+/*Todos los titulos que esten en fondo dark**/
+.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
+    color: #d7263d;
+}
+.primary h1, .primary h2, .primary h3, .primary h4,.primary h5,.primary h5{
+  color:#ced8db;
+}
+
+.secondary h1, .secondary h2, .secondary h3, .secondary h4, .secondary h5,.secondary h6{
+  color:#ced8db;
+}
+
+/*Banner principal*/
+#bannerPrincipal img#logoRoi {
+  width: 450px;
+  height: 150px;
+  margin: 25px 0 25px 0;
+}
+#bannerPrincipal h1{
+  color:#ced8db;
+  font-size:55px !important;
+}
+#bannerPrincipal p {
+    margin: 25px 0 25px 0 ;
+    font-size: 21px;
+}
+#bannerPrincipal #suscribetePrograma{
+  margin: 25px 0 35px 0;
+}
+/*Banner principal*/
+#descripcionPrograma{
+  padding: 50px 0 50px 0;
+}
+
+/*iconos*/
+#iconos{
+  padding: 40px 0 50px 0;
+  text-align: center;
+}
+
+#iconos h3{
+  margin-top: 25px;
+}
+
+.logos{
+  width:65px;
+  height:65px;
+}
+/*Fernando Celis**/
+#fernandoCelis{
+  padding: 30px 0 0px 0;
+}
+
+#obtenYa{
+  background-color: rgba(68, 143, 163, 0.1);
+  padding: 25px;
+}
+#obtenYa h1,#obtenYa h2,#obtenYa h3, #obtenYa h4,#obtenYa h5,#obtenYa h6{
+  color: rgba(68, 143, 163, 1);
+}
+#obtenYa img#folleto{
+  height: 225px;
+  width: 200px;
+}
+#fernandoCelis img#fernandoFoto{
+ width:100%;
+}
+/*CONTADOR*/
+#contador{
+  padding: 50px 0 50px 0;
+}
+h3#dias, h3#horas, h3#minutos, h3#segundos {
+    text-align: center !important;
+}
+
+#contador h1{
+  text-align: center;
+}
+
+/*Liston Pregunta*/
+#listonListoUnirte{
+  padding: 50px 0 50px 0;
+}
+#listonListoUnirte h1{
+  text-align: center;
+}
+
+/*Descripcion Programa continuum*/
+#descripcionContinuum{
+  padding: 30px 0;
+}
+/*Testimonios*/
+#testimonios{
+  padding: 50px 0 50px 0;
+  background-color: #02182b;
+  color:#D7263D;
+}
+
+#testimonios .row{
+  height: 250px;
+}
+
+#testimonios h1 {
+    font-size: 37px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*LogosPatrocinadores*/
+#logosPatrocinadores{
+  height: 200px;
+}
+#logosPatrocinadores .container{
+  border-top: 2px solid #448fa3;
+}
+
+#logosPatrocinadores .logos{
+  width: 50%;
+  height: 125px;
+  margin: 25px 0 25px 0;
+}
