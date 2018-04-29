@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 48px !important;
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px !important;
 }
 h2,h3{
     font-family: 'Roboto Slab', serif;
@@ -16,131 +16,104 @@ p{
     color:#ced8db;
 }
 .primary{
-    background-color: #448fa3;
+    background-color: #d35a52;
 }
 .secondary{
-    background-color: #d7263d;
-}
-.Rojo{
-    color: #d7263d !important;
+    background-color: #f3d175;
 }
 .light{
-    background-color: #0090d8;
+    background-color: #eac4c1;
 }
 .dark{
-    background-color: #02182b;
+    background-color: #83b8cf;
 }
 .grey{
     background-color: #ced8db;
 }
-#obtenYa img{
-    height: 450px;
-    width: 400px;
-}
-/*Header*/
-header{
-    background-image: url("../images/bannerPrincipal.jpg");
-    background-size:cover;
-    background-position: center;
-}
-
 
 /*Todos los titulos que esten en fondo dark**/
-.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
-    color: #d7263d;
-}
 .primary h1, .primary h2, .primary h3, .primary h4,.primary h5,.primary h5{
   color:#ced8db;
 }
-
 .secondary h1, .secondary h2, .secondary h3, .secondary h4, .secondary h5,.secondary h6{
-  color:#ced8db;
+  color:#d35a52;
+}
+.light h1,.light h2,.ligth h3,.light h4,.light h5,.light h6{
+    color: #83b8cf;
+}
+.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
+    color: #f3d175;
 }
 
+/*Header*/
+header{
+    background-image: url('../images/2.jpg');
+}
+header::after{
+    background-image: url('../images/1.png');
+    content: "";
+    width: 100%;
+    display: block;
+    height: 50px;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: 1600px 50px;
+    position: absolute;
+    bottom: 415px;
+    z-index: 1;
+}
 /*Banner principal*/
-#bannerPrincipal img#logoRoi {
+#banner_principal{
+    padding: 50px 0 50px 0;
+}
+#banner_principal img#logoRoi {
   width: 450px;
   height: 150px;
   margin: 25px 0 25px 0;
 }
-#bannerPrincipal h1{
+#banner_principal h1{
   color:#ced8db;
-  font-size:55px !important;
+  font-size:65px !important;
 }
-#bannerPrincipal p {
+#banner_principal p {
     margin: 25px 0 25px 0 ;
     font-size: 21px;
 }
-#bannerPrincipal #suscribetePrograma{
-  margin: 25px 0 35px 0;
-}
-/*Banner principal*/
 #descripcionPrograma{
   padding: 50px 0 50px 0;
+  background-color: #9bbdd9;
 }
-
-/*iconos*/
-#iconos{
-  padding: 40px 0 50px 0;
-  text-align: center;
+#descripcion_webinar{
+    padding: 75px 0 75px 0;
+    background-color: #9bbdd9;
 }
-
-#iconos h3{
-  margin-top: 25px;
+/*Descripción del programa*/
+#descripcion_regalo{
+    padding: 50px 0 50px 0;
 }
-
-.logos{
-  width:65px;
-  height:65px;
-}
-/*Fernando Celis**/
-#fernandoCelis{
-  padding: 30px 0 0px 0;
-}
-
-#obtenYa{
-  background-color: rgba(68, 143, 163, 0.1);
-  padding: 25px;
-}
-#obtenYa h1,#obtenYa h2,#obtenYa h3, #obtenYa h4,#obtenYa h5,#obtenYa h6{
-  color: rgba(68, 143, 163, 1);
-}
-#obtenYa img#folleto{
-  height: 225px;
-  width: 200px;
-}
-#fernandoCelis img#fernandoFoto{
- width:100%;
-}
-/*CONTADOR*/
-#contador{
+/*Facilitadoras*/
+#facilitadoras{
   padding: 50px 0 50px 0;
 }
-h3#dias, h3#horas, h3#minutos, h3#segundos {
-    text-align: center !important;
+#facilitadoras img.facilitadora-img{
+    width: 300px;
+    height: 250px;
 }
-
-#contador h1{
-  text-align: center;
-}
-
-/*Liston Pregunta*/
-#listonListoUnirte{
-  padding: 50px 0 50px 0;
-}
-#listonListoUnirte h1{
-  text-align: center;
-}
-
 /*Descripcion Programa continuum*/
-#descripcionContinuum{
+#continuum_ilc{
   padding: 30px 0;
+}
+/*Liston Pregunta*/
+#liston_unirte{
+    text-align: center;
+    padding: 50px 0;
+}
+#liston_unirte h1{
+
 }
 /*Testimonios*/
 #testimonios{
   padding: 50px 0 50px 0;
-  background-color: #02182b;
-  color:#D7263D;
 }
 
 #testimonios .row{
@@ -153,10 +126,10 @@ h3#dias, h3#horas, h3#minutos, h3#segundos {
     text-transform: uppercase;
 }
 /*LogosPatrocinadores*/
-#logosPatrocinadores{
+#logos_patrocinadores{
   height: 200px;
 }
-#logosPatrocinadores .container{
+#logos_patrocinadores .container{
   border-top: 2px solid #448fa3;
 }
 
