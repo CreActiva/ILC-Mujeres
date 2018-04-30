@@ -91,6 +91,7 @@ header{
 /*Facilitadoras*/
 #facilitadoras{
   padding: 50px 0 50px 0;
+  background-color: #ced8db;
 }
 #facilitadoras img.facilitadora-img{
     width: 300px;
