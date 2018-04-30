@@ -76,16 +76,22 @@ header{
 /*Descripcion Webinar*/
 #descripcion_webinar{
     padding: 50px 0 50px 0;
-    background-color: #9bbdd9;
+    background-color: #83b8cf;
 }
 
 /*Descripción Regalo*/
 #descripcion_regalo{
     padding: 50px 0 50px 0;
 }
+
+#descripcion_regalo img#regalo{
+    height: 300px;
+    width: 300px;
+}
 /*Facilitadoras*/
 #facilitadoras{
   padding: 50px 0 50px 0;
+  background-color: #ced8db;
 }
 #facilitadoras img.facilitadora-img{
     width: 300px;
