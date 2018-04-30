@@ -49,9 +49,10 @@ p{
 header{
     background-image: url('../images/2.jpg');
 }
-header .separador{
+.separador{
     position: absolute;
     display: block;
+    height: 80px;
 }
 
 /*Banner principal*/
@@ -74,56 +75,17 @@ header .separador{
 
 /*Descripcion Webinar*/
 #descripcion_webinar{
-    padding: 75px 0 75px 0;
+    padding: 50px 0 50px 0;
     background-color: #9bbdd9;
 }
 
-#descripcion_webinar::after{
-    background-image: url('../images/2.png');
-    content: " ";
-    width: 100%;
-    display: block;
-    height: 50px;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: 1600px 50px;
-    position: absolute;
-    bottom: 80px;
-    z-index: 1;
-}
 /*Descripción Regalo*/
 #descripcion_regalo{
     padding: 50px 0 50px 0;
 }
-#descripcion_regalo::after{
-    background-image: url('../images/3.png');
-    content: "asdfas ";
-    width: 100%;
-    display: block;
-    height: 50px;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: 1600px 50px;
-    position: absolute;
-    bottom: -330px;
-    z-index: 1;
-}
 /*Facilitadoras*/
 #facilitadoras{
   padding: 50px 0 50px 0;
-}
-#facilitadoras::after{
-    background-image: url('../images/4.png');
-    content: "asdfas ";
-    width: 100%;
-    display: block;
-    height: 50px;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: 1600px 50px;
-    position: absolute;
-    bottom: -980px;
-    z-index: 1;
 }
 #facilitadoras img.facilitadora-img{
     width: 300px;
@@ -133,58 +95,16 @@ header .separador{
 #continuum_ilc{
   padding: 30px 0;
 }
-#continuum_ilc:after{
-  padding: 30px 0;
-  background-image: url('../images/5.png');
-  content: " ";
-  width: 100%;
-  display: block;
-  height: 50px;
-  background-repeat: repeat-x;
-  background-position: center bottom;
-  background-size: 1600px 50px;
-  position: absolute;
-  bottom: -1490px;
-  z-index: 1;
-}
 
 /*Testimonios*/
 #testimonios{
   padding: 50px 0 50px 0;
-}
-#testimonios::after{
-    padding: 30px 0;
-    background-image: url('../images/6.png');
-    content: " ";
-    width: 100%;
-    display: block;
-    height: 50px;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: 1600px 50px;
-    position: absolute;
-    bottom: -1850px;
-    z-index: 1;
 }
 
 /*Liston Pregunta*/
 #liston_unirte{
     text-align: center;
     padding: 50px 0;
-}
-#liston_unirte::after{
-    padding: 30px 0;
-    background-image: url('../images/7.png');
-    content: " ";
-    width: 100%;
-    display: block;
-    height: 50px;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: 1600px 50px;
-    position: absolute;
-    bottom: -2080px;
-    z-index: 1;
 }
 
 
