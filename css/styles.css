@@ -49,19 +49,11 @@ p{
 header{
     background-image: url('../images/2.jpg');
 }
-header::after{
-    background-image: url('../images/1.png');
-    content: "";
-    width: 100%;
-    display: block;
-    height: 50px;
-    background-repeat: repeat-x;
-    background-position: center bottom;
-    background-size: 1600px 50px;
+header .separador{
     position: absolute;
-    bottom: 415px;
-    z-index: 1;
+    display: block;
 }
+
 /*Banner principal*/
 #banner_principal{
     padding: 50px 0 50px 0;
