@@ -10,11 +10,25 @@ h2,h3{
     font-family: 'Roboto Slab', serif;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color:#ced8db;
 }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #83b8cf;
+    border-color: #83b8cf;
+}
+
+.btn-outline-primary {
+    color: #83b8cf;
+    background-color: transparent;
+    background-image: none;
+    border-color: #83b8cf;
+}
+
 .primary{
     background-color: #d35a52;
 }
@@ -49,19 +63,23 @@ p{
 header{
     background-image: url('../images/2.jpg');
 }
+
+.hidden_contenedor{
+    overflow: hidden;
+}
+
 .separador{
-    position: absolute;
-    display: block;
     height: 80px;
 }
 
+
 /*Banner principal*/
 #banner_principal{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
 }
-#banner_principal img#logoRoi {
-  width: 450px;
-  height: 150px;
+#banner_principal .logo img {
+  width: 75px;
+  height: 75px;
   margin: 25px 0 25px 0;
 }
 #banner_principal h1{
@@ -73,15 +91,46 @@ header{
     font-size: 21px;
 }
 
+#banner_principal .video{
+    padding: 50px 0 !important;
+}
+
+/*Modal Styles*/
+.modal-title h1 {
+    text-align: center;
+}/*No funciona*/
+
+
 /*Descripcion Webinar*/
 #descripcion_webinar{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
     background-color: #83b8cf;
+    background-image: url("../images/fondo_azul.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+ul.lista{
+    list-style-image: url("../images/p1.png")
+}
+li{
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+li.liston_pintura {
+background: url('../images/p1.jpg') no-repeat center center;
+height: 10px;
 }
 
 /*Descripción Regalo*/
 #descripcion_regalo{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 #descripcion_regalo img#regalo{
@@ -90,8 +139,12 @@ header{
 }
 /*Facilitadoras*/
 #facilitadoras{
-  padding: 50px 0 50px 0;
-  background-color: #ced8db;
+    padding: 50px 0 0 0;
+    background-color: #ced8db;
+    background-image: url("../images/fondo_rosfa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;    
 }
 #facilitadoras img.facilitadora-img{
     width: 300px;
@@ -99,18 +152,33 @@ header{
 }
 /*Descripcion Programa continuum*/
 #continuum_ilc{
-  padding: 30px 0;
+  padding: 30px 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_azul.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 /*Testimonios*/
 #testimonios{
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 /*Liston Pregunta*/
 #liston_unirte{
     text-align: center;
     padding: 50px 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rojo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 
@@ -121,7 +189,6 @@ header{
 #testimonios h1 {
     font-size: 37px;
     text-align: center;
-    text-transform: uppercase;
 }
 /*LogosPatrocinadores*/
 #logos_patrocinadores{
