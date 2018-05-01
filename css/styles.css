@@ -13,7 +13,7 @@ h2,h3{
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color:#ced8db;
+    color:#fff;
 }
 
 .btn-outline-primary:hover {
@@ -53,7 +53,7 @@ p {
   color:#d35a52;
 }
 .light h1,.light h2,.ligth h3,.light h4,.light h5,.light h6{
-    color: #83b8cf;
+    color: #5da2c0;
 }
 .dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
     color: #f3d175;
@@ -146,11 +146,20 @@ height: 10px;
     height: 300px;
     width: 300px;
 }
+
+#descripcion_regalo p{
+    color: #efeeee;
+}
+
+#descripcion_regalo .row{
+    margin-top: 55px;
+}
+
 /*Facilitadoras*/
 #facilitadoras{
     padding: 0 0 0 0;
     background-color: #ced8db;
-    background-image: url("../images/separador_gris.png");
+    background-image: url("../images/fondo_gris.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;    
@@ -159,6 +168,11 @@ height: 10px;
     width: 300px;
     height: 290px;
 }
+
+#facilitadoras h1 spam, #facilitadoras h1 b{
+    color:#d35a52;
+}
+
 /*Descripcion Programa continuum*/
 #continuum_ilc{
   padding: 0 0 0 0;
