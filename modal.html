@@ -11,7 +11,7 @@
       </head>
     
       <body>
-      <!-- CODIGO SAMUEL
+
     <button class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#formulario-suscripcion">Registrate en el Webinar</button>
     <div class="modal fade" id="formulario-suscripcion" tabindex="-1" role="dialog" aria-labelledby="fm-modal-grid" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -21,23 +21,24 @@
                     <button class="close" data-dismiss="modal" aria-label="Cerrar">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
+
+            </div>
                 <div class="modal-content-centered">
                    <div class="row">
                        <div class="col-8">
                             <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-                            <!-- Nombre --><!--
-                                <p>Nombre:</p> <input class="form-group" type="text" name="name"/><br/>
-                            <!-- Campo email (requerido) --><!--
+                            <!-- Nombre -->
+                            Nombre: <input class="form-group" type="text" name="name"/><br/>
+                            <!-- Campo email (requerido) -->
                             <p>email:</p> <input  class="form-group" type="text" name="email"/><br/>
-                            <!-- Token de campaña --><!--
-                            <!-- Obtenga el token en: https://app.getresponse.com/campaign_list.html --><!--
+                            <!-- Token de campaña -->
+                            <!-- Obtenga el token en: https://app.getresponse.com/campaign_list.html -->
                             <input type="hidden" name="campaign_token" value="6Fv8x" />
-                            <!-- Página de agradecimiento (opcional) --><!--
-                            <input type="hidden" name="thankyou_url" value="http://www.ilcacademy.com/gracias"/><!--
-                            <!-- Forward form data to your page (optional) --><!--
-                            <input type="hidden" name="forward_data" value="" /><!--
-                            <!-- Botón de suscriptor --><!--
+                            <!-- Página de agradecimiento (opcional) -->
+                            <input type="hidden" name="thankyou_url" value="http://www.ilcacademy.com/gracias"/>
+                            <!-- Forward form data to your page (optional) -->
+                            <input type="hidden" name="forward_data" value="" />
+                            <!-- Botón de suscriptor -->
                             <input type="submit" value="El Registro es Gratuito"/>
                             </form>
                        </div>
@@ -47,8 +48,6 @@
         </div>
     </div>
 
--->
-    
  
     
        
@@ -121,7 +120,7 @@
 </button>
 
 <!-- The Modal -->
-<div class="modal fade" id="myModal">
+<div class="modal fade" id="myModal" tabindex="-1"  role="dialog" aria-hidden="true" aria-labelledby="fm-modal-grid">
 
     
 <div class="modal-dialog-centered justify-content-around">
@@ -129,7 +128,9 @@
     
 <div class="row  justify-content-around">
   <div class="col-12  float-left">
-   <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+        <span aria-hidden="true">&times;</span>
+    </button>
   </div>
     <div class="col-12">
     <!-- Modal Header -->

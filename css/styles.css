@@ -65,6 +65,11 @@ header{
   height: 75px;
   margin: 25px 0 25px 0;
 }
+#banner_principal .logoNahil img{
+    width:100px;
+    height: 76px;
+    margin: 25px 0;
+}
 #banner_principal h1{
   color:#ced8db;
   font-size:65px !important;
