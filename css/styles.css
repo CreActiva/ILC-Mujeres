@@ -10,7 +10,7 @@ h2,h3{
     font-family: 'Roboto Slab', serif;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color:#ced8db;
@@ -53,15 +53,16 @@ header{
     position: absolute;
     display: block;
     height: 80px;
+    width: 100%;
 }
 
 /*Banner principal*/
 #banner_principal{
     padding: 50px 0 50px 0;
 }
-#banner_principal img#logoRoi {
-  width: 450px;
-  height: 150px;
+#banner_principal .logo img {
+  width: 75px;
+  height: 75px;
   margin: 25px 0 25px 0;
 }
 #banner_principal h1{
@@ -72,6 +73,16 @@ header{
     margin: 25px 0 25px 0 ;
     font-size: 21px;
 }
+
+#banner_principal .video{
+    padding: 50px 0 !important;
+}
+
+/*Modal Styles*/
+.modal-title h1 {
+    text-align: center;
+}/*No funciona*/
+
 
 /*Descripcion Webinar*/
 #descripcion_webinar{
