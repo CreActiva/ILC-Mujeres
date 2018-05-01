@@ -15,6 +15,20 @@ p {
     font-size: 20px;
     color:#ced8db;
 }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #83b8cf;
+    border-color: #83b8cf;
+}
+
+.btn-outline-primary {
+    color: #83b8cf;
+    background-color: transparent;
+    background-image: none;
+    border-color: #83b8cf;
+}
+
 .primary{
     background-color: #d35a52;
 }
@@ -49,16 +63,23 @@ p {
 header{
     background-image: url('../images/2.jpg');
 }
-.separador{
-    position: absolute;
-    display: block;
-    height: 80px;
-    width: 100%;
+
+.hidden_contenedor{
+    overflow: hidden;
 }
+
+.separador{
+    height: 80px;
+}
+
+.espacio_bajo{
+    margin-bottom: 50px;
+}
+
 
 /*Banner principal*/
 #banner_principal{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
 }
 #banner_principal .logo img {
   width: 75px;
@@ -91,18 +112,14 @@ header{
 
 /*Descripcion Webinar*/
 #descripcion_webinar{
-    padding: 50px 0 50px 0;
+    padding: 0 0 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_azul.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 500px;
+    background-position: top;
 }
 
-#descripcion_webinar img.separador{
-    top:900px;
-}
 ul.lista{
     list-style-image: url("../images/p1.png")
 }
@@ -117,7 +134,12 @@ height: 10px;
 
 /*Descripción Regalo*/
 #descripcion_regalo{
-    padding: 50px 0 50px 0;
+    padding: 0 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 #descripcion_regalo img#regalo{
@@ -126,8 +148,12 @@ height: 10px;
 }
 /*Facilitadoras*/
 #facilitadoras{
-  padding: 50px 0 50px 0;
-  background-color: #ced8db;
+    padding: 0 0 0 0;
+    background-color: #ced8db;
+    background-image: url("../images/fondo_rosfa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;    
 }
 #facilitadoras img.facilitadora-img{
     width: 300px;
@@ -135,18 +161,33 @@ height: 10px;
 }
 /*Descripcion Programa continuum*/
 #continuum_ilc{
-  padding: 30px 0;
+  padding: 0 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_azul.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 /*Testimonios*/
 #testimonios{
-  padding: 50px 0 50px 0;
+  padding: 0 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 /*Liston Pregunta*/
 #liston_unirte{
     text-align: center;
-    padding: 50px 0;
+    padding: 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rojo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 
