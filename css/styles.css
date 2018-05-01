@@ -98,6 +98,17 @@ header{
 #descripcion_webinar img.separador{
     top:900px;
 }
+ul.lista{
+    list-style-image: url("../images/p1.png")
+}
+li{
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+li.liston_pintura {
+background: url('../images/p1.jpg') no-repeat center center;
+height: 10px;
+}
 
 /*Descripción Regalo*/
 #descripcion_regalo{
