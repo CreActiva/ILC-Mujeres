@@ -121,7 +121,7 @@ header{
 }
 
 ul.lista{
-    list-style-image: url("../images/p1.png")
+    list-style-image: url("../images/p1.png");
 }
 li{
     margin-bottom: 60px;
@@ -188,6 +188,7 @@ height: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    padding-bottom: 60px;
 }
 
 
@@ -199,6 +200,7 @@ height: 10px;
     font-size: 37px;
     text-align: center;
 }
+
 /*LogosPatrocinadores*/
 #logos_patrocinadores{
   height: 200px;
