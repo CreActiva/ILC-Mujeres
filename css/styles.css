@@ -72,6 +72,10 @@ header{
     height: 80px;
 }
 
+.espacio_bajo{
+    margin-bottom: 50px;
+}
+
 
 /*Banner principal*/
 #banner_principal{
@@ -103,7 +107,7 @@ header{
 
 /*Descripcion Webinar*/
 #descripcion_webinar{
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_azul.png");
     background-repeat: no-repeat;
@@ -125,7 +129,7 @@ height: 10px;
 
 /*Descripción Regalo*/
 #descripcion_regalo{
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_rosa.png");
     background-repeat: no-repeat;
@@ -139,7 +143,7 @@ height: 10px;
 }
 /*Facilitadoras*/
 #facilitadoras{
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
     background-color: #ced8db;
     background-image: url("../images/fondo_rosfa.png");
     background-repeat: no-repeat;
@@ -152,7 +156,7 @@ height: 10px;
 }
 /*Descripcion Programa continuum*/
 #continuum_ilc{
-  padding: 30px 0 0 0;
+  padding: 0 0 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_azul.png");
     background-repeat: no-repeat;
@@ -162,7 +166,7 @@ height: 10px;
 
 /*Testimonios*/
 #testimonios{
-  padding: 50px 0 0 0;
+  padding: 0 0 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_rosa.png");
     background-repeat: no-repeat;
@@ -173,7 +177,7 @@ height: 10px;
 /*Liston Pregunta*/
 #liston_unirte{
     text-align: center;
-    padding: 50px 0;
+    padding: 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_rojo.png");
     background-repeat: no-repeat;
