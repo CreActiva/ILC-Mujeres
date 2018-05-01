@@ -91,6 +91,11 @@ header{
     height: 76px;
     margin: 25px 0;
 }
+#banner_principal .logoAle img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
 #banner_principal h1{
   color:#ced8db;
   font-size:65px !important;
@@ -120,16 +125,15 @@ header{
     background-position: top;
 }
 
-ul.lista{
-    list-style-image: url("../images/p1.png");
+ol {
+    list-style: decimal;
 }
-li{
-    margin-bottom: 60px;
-    font-size: 25px;
-}
-li.liston_pintura {
-background: url('../images/p1.jpg') no-repeat center center;
-height: 10px;
+
+ol li.liston_pintura {
+    background:url(../images/p1.png)no-repeat left;
+    padding-left: 100px;
+    color: #fff;
+    height: 54px;
 }
 
 /*Descripción Regalo*/
@@ -140,6 +144,8 @@ height: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    margin-bottom: 60px;
+    font-size: 25px;
 }
 
 #descripcion_regalo img#regalo{
