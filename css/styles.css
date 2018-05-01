@@ -126,11 +126,12 @@ header{
 }
 
 ol {
-    list-style: decimal;
+    list-style: decimal inside;
+    position: relative;
 }
 
 ol li.liston_pintura {
-    background:url(../images/p1.png)no-repeat left;
+    background:url(../images/p1.png)no-repeat;
     padding-left: 100px;
     color: #fff;
     height: 54px;
@@ -144,7 +145,6 @@ ol li.liston_pintura {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin-bottom: 60px;
     font-size: 25px;
 }
 
@@ -189,6 +189,20 @@ ol li.liston_pintura {
     background-position: top;
 }
 
+#continuum_ilc .logosMd img{
+    width: 150px;
+    height: 150px;
+    margin: 0 0 25px 0;
+}
+
+#continuum_ilc .logosMdNahil img{
+    width: 175px;
+}
+#continuum_ilc .logosMdAle img{
+    width: 175px;
+    margin: -20px 0 0 0;
+}
+
 /*Testimonios*/
 #testimonios{
   padding: 0 0 0 0;
@@ -223,7 +237,7 @@ ol li.liston_pintura {
 
 /*LogosPatrocinadores*/
 #logos_patrocinadores{
-  height: 200px;
+  height: 300px;
 }
 #logos_patrocinadores .container{
   border-top: 2px solid #448fa3;
