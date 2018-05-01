@@ -61,7 +61,9 @@ p {
 
 /*Header*/
 header{
-    background-image: url('../images/2.jpg');
+    background-image: url('../images/background_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hidden_contenedor{
@@ -86,12 +88,12 @@ header{
   height: 75px;
   margin: 25px 0 25px 0;
 }
-#banner_principal .logoNahil img{
+#banner_principal .logo_nahil img{
     width:100px;
     height: 76px;
     margin: 25px 0;
 }
-#banner_principal .logoAle img{
+#banner_principal .logo_alexandra img{
     width: 100px;
     height: 100px;
     margin: 10px 0;
@@ -125,6 +127,15 @@ header{
     background-position: top;
 }
 
+#descripcion_webinar .row{
+    margin-top: 50px;
+}
+
+#descripcion_webinar h1{
+    color: #fff;
+    text-shadow: 2px 2px #d35a52;
+}
+
 ol {
     list-style: decimal;
 }
@@ -144,8 +155,11 @@ ol li.liston_pintura {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin-bottom: 60px;
     font-size: 25px;
+}
+
+#descripcion_regalo h1{
+    text-shadow: 2px 2px #ced8db;
 }
 
 #descripcion_regalo img#regalo{
@@ -170,6 +184,12 @@ ol li.liston_pintura {
     background-size: cover;
     background-position: top;    
 }
+
+#facilitadoras h1{
+    text-shadow: 2px 2px #EAC4C1;
+}
+}
+
 #facilitadoras img.facilitadora-img{
     width: 300px;
     height: 290px;
@@ -189,6 +209,11 @@ ol li.liston_pintura {
     background-position: top;
 }
 
+#continuum_ilc h1{
+    color: #fff;
+    text-shadow: 2px 2px #D35A52;
+}
+
 /*Testimonios*/
 #testimonios{
   padding: 0 0 0 0;
@@ -198,6 +223,11 @@ ol li.liston_pintura {
     background-size: cover;
     background-position: top;
 }
+
+#testimonios h1{
+    text-shadow: 2px 2px #FFFFFF;
+}
+
 
 /*Liston Pregunta*/
 #liston_unirte{
@@ -209,6 +239,10 @@ ol li.liston_pintura {
     background-size: cover;
     background-position: top;
     padding-bottom: 60px;
+}
+
+#liston_unirte h1{
+    text-shadow: 2px 2px #603A5A;
 }
 
 
