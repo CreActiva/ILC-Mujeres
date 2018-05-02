@@ -5,8 +5,8 @@
 /* THE MAINCONTAINER HOLDS EVERYTHING */
 .maincontainer{
   position: absolute;
-  width: 250px;
-  height: 320px;
+  width: 100%;
+  height: 100%;
   background: none;
   top: 50%;
   left: 50%;
@@ -22,7 +22,7 @@
   height: 100%;
   border-radius: 10px;
   transform-style: preserve-3d;
-  transition: all 0.8s ease;
+  transition: all 1.5s ease;
 }
 
 /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
@@ -40,7 +40,7 @@
   border-radius: 10px;
   backface-visibility: hidden;
   overflow: hidden;
-  background: #ffc728;
+  background: rgba(234, 196, 193, 0.5);
   color: #000;
 }
 
@@ -78,17 +78,32 @@
 
 h1{
     font-family: 'Alex Brush', cursive;
-    font-size: 60px !important;
+    font-size: 65px !important;
+    line-height: 60px;
 }
 h2,h3{
     font-family: 'Roboto Slab', serif;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color:#ced8db;
+    color:#fff;
 }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #83b8cf;
+    border-color: #83b8cf;
+}
+
+.btn-outline-primary {
+    color: #83b8cf;
+    background-color: transparent;
+    background-image: none;
+    border-color: #83b8cf;
+}
+
 .primary{
     background-color: #d35a52;
 }
@@ -113,7 +128,7 @@ p{
   color:#d35a52;
 }
 .light h1,.light h2,.ligth h3,.light h4,.light h5,.light h6{
-    color: #83b8cf;
+    color: #5da2c0;
 }
 .dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
     color: #f3d175;
@@ -121,22 +136,42 @@ p{
 
 /*Header*/
 header{
-    background-image: url('../images/2.jpg');
+    background-image: url('../images/background_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.hidden_contenedor{
+    overflow: hidden;
+}
+
 .separador{
-    position: absolute;
-    display: block;
     height: 80px;
 }
 
+.espacio_bajo{
+    margin-bottom: 50px;
+}
+
+
 /*Banner principal*/
 #banner_principal{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0 0;
 }
-#banner_principal img#logoRoi {
-  width: 450px;
-  height: 150px;
+#banner_principal .logo img {
+  width: 75px;
+  height: 75px;
   margin: 25px 0 25px 0;
+}
+#banner_principal .logo_nahil img{
+    width:100px;
+    height: 76px;
+    margin: 25px 0;
+}
+#banner_principal .logo_alexandra img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
 }
 #banner_principal h1{
   color:#ced8db;
@@ -147,57 +182,178 @@ header{
     font-size: 21px;
 }
 
+#banner_principal .video{
+    padding: 50px 0 !important;
+}
+
+/*Modal Styles*/
+.modal-header, .modal-content{
+    background-color: #ced8db;
+}
+#banner_principal .modal-header h1 {
+    color: #d35a52;
+    text-align: center;
+    width: 100%;
+}
+.modal-content .btn-outline-primary {
+    color: #d35a52;
+    background-color: transparent;
+    background-image: none;
+    border-color: #d35a52;
+}
+
+.modal-content .btn-outline-primary:hover {
+    color: #ced8db;
+    background-color: #d35a52;
+    background-image: none;
+    border-color: #d35a52;
+}
+.modal-content .img-thumbnail {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.modal-title h1 {
+    text-align: center;
+}/*No funciona*/
+
 /*Descripcion Webinar*/
 #descripcion_webinar{
-    padding: 50px 0 50px 0;
+    padding: 0 0 0 0;
     background-color: #83b8cf;
     background-image: url("../images/fondo_azul.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 500px;
+    background-position: top;
 }
 
-#descripcion_webinar img.separador{
-    top:900px;
+#descripcion_webinar .row{
+    margin-top: 50px;
 }
-#descripcion_webinar .brocha{
+
+#descripcion_webinar h1{
+    color: #fff;
+    text-shadow: 2px 2px #d35a52;
+}
+
+#descripcion_webinar p::before {
+    content: url(../images/p1.png);
+    position: relative;
+    display: inline-flex;
+    top: 1.2em;
+    margin-right: 10px;
 }
 
 /*Descripción Regalo*/
 #descripcion_regalo{
-    padding: 50px 0 50px 0;
+    padding: 0 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-size: 25px;
+}
+
+#descripcion_regalo h1{
+    text-shadow: 2px 2px #ced8db;
 }
 
 #descripcion_regalo img#regalo{
     height: 300px;
     width: 300px;
 }
+
+#descripcion_regalo p{
+    color: #efeeee;
+}
+
+#descripcion_regalo .row{
+    margin-top: 55px;
+}
+
 /*Facilitadoras*/
 #facilitadoras{
-  padding: 50px 0 50px 0;
-  background-color: #ced8db;
+    padding: 0 0 0 0;
+    background-color: #ced8db;
+    background-image: url("../images/fondo_gris.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
+
+#facilitadoras h1{
+    text-shadow: 2px 2px #EAC4C1;
+}
+
 #facilitadoras img.facilitadora-img{
     width: 300px;
     height: 290px;
 }
+
+#facilitadoras h1 spam, #facilitadoras h1 b{
+    color:#d35a52;
+}
+
+#facilitadoras_titulo{
+    height: 280px;
+    margin-top: 232px;
+}
+
+#facilitadoras h1{
+    line-height: 55px;
+}
+
 /*Descripcion Programa continuum*/
 #continuum_ilc{
-  padding: 30px 0;
+  padding: 0 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_azul.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#continuum_ilc h1{
+    color: #fff;
+    text-shadow: 2px 2px #D35A52;
+}
+
+#continuum_ilc .img-thumbnail{ background-color: rgba(255, 255, 255, 0);}
+
+.continuum_ilc #webinar h1 {
+    margin-top: 25px;
 }
 
 /*Testimonios*/
 #testimonios{
-  padding: 50px 0 50px 0;
+  padding: 0 0 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
+
+#testimonios h1{
+    text-shadow: 2px 2px #FFFFFF;
+}
+
 
 /*Liston Pregunta*/
 #liston_unirte{
     text-align: center;
-    padding: 50px 0;
+    padding: 0 0;
+    background-color: #83b8cf;
+    background-image: url("../images/fondo_rojo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 60px;
 }
 
+#liston_unirte h1{
+    text-shadow: 2px 2px #603A5A;
+}
 
 #testimonios .row{
   height: 250px;
@@ -206,10 +362,13 @@ header{
 #testimonios h1 {
     font-size: 37px;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
+
 /*LogosPatrocinadores*/
 #logos_patrocinadores{
-  height: 200px;
+  height: 300px;
 }
 #logos_patrocinadores .container{
   border-top: 2px solid #448fa3;
@@ -219,4 +378,8 @@ header{
   width: 50%;
   height: 125px;
   margin: 25px 0 25px 0;
+}
+
+.img-thumbnail{
+    border:none !important;
 }
