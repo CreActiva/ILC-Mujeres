@@ -58,8 +58,12 @@
   color: #333;
   text-align: center;
   transform: rotateY(180deg);
+  padding: 30px; 
 }
 
+.theback p{
+  color:#C1C8CA;     
+}
 
 /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
 .thefront h1, .theback h1{
@@ -70,9 +74,8 @@
 
 .thefront p, .theback p{
   font-family: 'zilla slab', sans-serif;
-  padding: 30px;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -183,13 +186,31 @@ header{
 }
 
 #banner_principal .video{
-    padding: 50px 0 !important;
+    padding: 25px 0 60px !important;
 }
 
 /*Modal Styles*/
 .modal-header, .modal-content{
     background-color: #ced8db;
+    padding-top: 15px !important;
 }
+
+#formulario-suscripcion > div > div.modal-header > h2 > i{
+    margin-top: 10px;
+}
+
+.modal-content{
+    padding: 20px;
+}
+.modal-content spam i{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 5px !important;
+}
+#formulario-suscripcion > div > div.modal-body > div > div.col-6.align-self-start > img{
+    margin-bottom: 6px
+}
+
 #banner_principal .modal-header h1 {
     color: #d35a52;
     text-align: center;
@@ -212,10 +233,6 @@ header{
     background-color: rgba(255, 0, 0, 0);
 }
 
-.modal-title h1 {
-    text-align: center;
-}/*No funciona*/
-
 /*Descripcion Webinar*/
 #descripcion_webinar{
     padding: 0 0 0 0;
@@ -236,11 +253,22 @@ header{
 }
 
 #descripcion_webinar p::before {
-    content: url(../images/p1.png);
     position: relative;
     display: inline-flex;
     top: 1.2em;
     margin-right: 10px;
+}
+#descripcion_webinar p#descripcion_uno::before {
+    content: url(../images/numero1.png);
+}
+#descripcion_webinar p#descripcion_dos::before {
+    content: url(../images/numero2.png);
+}
+#descripcion_webinar p#descripcion_tres::before {
+    content: url(../images/numero3.png);
+}
+#descripcion_webinar p#descripcion_cuatro::before {
+    content: url(../images/numero4.png);
 }
 
 /*Descripción Regalo*/
@@ -264,7 +292,7 @@ header{
 }
 
 #descripcion_regalo p{
-    color: #efeeee;
+    color: #312e2e;
 }
 
 #descripcion_regalo .row{
