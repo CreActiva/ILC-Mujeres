@@ -27,49 +27,48 @@
                     <div class="col-12 video">
                         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/266117921" allowFullScreen frameborder="0" mozallowfullscreen webkitAllowFullScreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
                     </div>
+                    <button class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#formulario-suscripcion">Registrate en el Webinar</button>
+                    
+                    <div class="modal fade" id="formulario-suscripcion" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-content modal-lg">
+                    <div class="modal-header">
+                    <h1>Regístrate y Descarga el Material Gratuito</h1>
+                    <button class="close" data-dismiss="modal" aria-label="cerrar">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
 
-<button class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal" data-target="#formulario-suscripcion">Registrate en el Webinar</button>
-<div class="modal fade" id="formulario-suscripcion" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+                    <div class="row">
+                        <div class="col-6">
+                    <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
 
-<div class="modal-dialog modal-content modal-lg">
-<div class="modal-header">
-<h1>Regístrate y Descarga el Material Gratuito</h1>
-<button class="close" data-dismiss="modal" aria-label="cerrar">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-<div class="modal-body">
-
-<div class="row">
-    <div class="col-6">
-<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-
-    <h6>Nombre:</h6> <input class="form-control" type="text" name="name"/><br/>
-<!-- Campo email (requerido) -->
-    <h6>Apellido</h6> <input class="form-control" type="text" name="lastname"/><br/>
-    <h6>Email:</h6> <input class="form-control" type="text" name="email"/><br/>
-<!-- Token de campaña -->
-<!-- Obtenga el token en: https://app.getresponse.com/campaign_list.html -->
-<input type="hidden" name="campaign_token" value="6Fv8x" />
-<!-- Página de agradecimiento (opcional) -->
-<input type="hidden" name="thankyou_url" value="http://www.ilcacademy.com/gracias"/>
-<!-- Forward form data to your page (optional) -->
-<input type="hidden" name="forward_data" value="" />
-<!-- Botón de suscriptor -->
-<input type="submit" class="btn btn-outline-primary btn-md btn-block"  value="Registro Gratuito"/>
-</form>
-</div>    
-    <div class="col-6 align-self-start">
-       <img src="images/regalo.png" alt="ModalRegaloImagen" class="img-thumbnail">
-       <spam>
-            <i>Te estarás registrando al webinar y al programa de Coaching Continuum de ILC</i>
-       </spam>
-    </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+                        <h6>Nombre:</h6> <input class="form-control" type="text" name="name"/><br/>
+                    <!-- Campo email (requerido) -->
+                        <h6>Apellido</h6> <input class="form-control" type="text" name="lastname"/><br/>
+                        <h6>Email:</h6> <input class="form-control" type="text" name="email"/><br/>
+                    <!-- Token de campaña -->
+                    <!-- Obtenga el token en: https://app.getresponse.com/campaign_list.html -->
+                    <input type="hidden" name="campaign_token" value="6Fv8x" />
+                    <!-- Página de agradecimiento (opcional) -->
+                    <input type="hidden" name="thankyou_url" value="http://www.ilcacademy.com/gracias"/>
+                    <!-- Forward form data to your page (optional) -->
+                    <input type="hidden" name="forward_data" value="" />
+                    <!-- Botón de suscriptor -->
+                    <input type="submit" class="btn btn-outline-primary btn-md btn-block"  value="Registro Gratuito"/>
+                    </form>
+                    </div>    
+                        <div class="col-6 align-self-start">
+                           <img src="images/regalo.png" alt="ModalRegaloImagen" class="img-thumbnail">
+                           <spam>
+                                <i>Te estarás registrando al webinar y al programa de Coaching Continuum de ILC</i>
+                           </spam>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+        </div>
         </div>
         </div>
     <img src="images/separador_azul.png" class="separador d-flex align-self-end">
@@ -153,12 +152,12 @@ Desde hace cuatro años soy certificada como Coach  por ICC y Life Coach por la 
                     <h1><b>Programa de Coaching Continuum</b></h1>
                     <p>Es un espacio amplio de compartir herramientas para que todas las semanas puedas tener lecciones, aprendizajes y dsitinciones para ser mejor Coach. Es un lugar donde podrás conocer nuevas tendencias y repasar herramientas que ya posees.</p>
                     <div class="row">
-                        <h1 class="col-12">El Webinar Comenzará en:</h1>
-                        <div class="w-100"></div>
-                        <div class="col-3 text-center"><h3 id="dias">Dias</h3></div>
-                        <div class="col-3 text-center"><h3 id="horas">Horas</h3></div>
-                        <div class="col-3 text-center"><h3 id="minutos">Minutos</h3></div>
-                        <div class="col-3 text-center"><h3 id="segundos">Segundos</h3></div>
+                        <h1 class="col-12" id="titulo_contador">Webinar Comenzará:</h1>
+                            <div class="w-100"></div>
+                            <div class="col-3 text-center"><h3 class="contador" id="dias">Dias</h3><spam><i>Días</i></spam></div>
+                            <div class="col-3 text-center"><h3 class="contador" id="horas">Horas</h3><spam><i>Horas</i></spam></div>
+                            <div class="col-3 text-center"><h3 class="contador" id="minutos">Minutos</h3><spam><i>Minutos</i></spam></div>
+                            <div class="col-3 text-center"><h3 class="contador" id="segundos">Segundos</h3><spam><i>Segundos</i></spam></div>
                     </div>
                 </div>
                 <div class="col-6 align-self-end">
@@ -168,6 +167,9 @@ Desde hace cuatro años soy certificada como Coach  por ICC y Life Coach por la 
                     <div class="col-6 align-self-center"><img src="images/logo_nahil.png" alt="" class="grey logos img-thumbnail "></div>
                     <div class="col-6"><img src="images/logo_alexandra.png" alt="" class="grey logos img-thumbnail"></div>
                     </div>
+                </div>
+                <div class="col-12">
+                     <button class="btn btn-outline-secondary btn-lg btn-block" data-toggle="modal" data-target="#formulario-suscripcion">Registrate en el Webinar</button>
                 </div>
             </div>
         </div>
@@ -198,7 +200,7 @@ Desde hace cuatro años soy certificada como Coach  por ICC y Life Coach por la 
             <div class="row espacio_bajo">
                 <div class="col-12">
                     <h1><b>¿Alguna vez haz tenido algún desafío en el Amor?</b></h1>
-                    <h2>Que esperas para registrarte</h2>
+                    <h2><i>Que esperas para registrarte</i></h2>
                 </div>
             </div>
         </div>

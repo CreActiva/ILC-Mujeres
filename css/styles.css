@@ -94,17 +94,30 @@ p {
     color:#fff;
 }
 
+.btn-outline-primary {
+    color: #83b8cf;
+    background-color: transparent;
+    background-image: none;
+    border-color: #83b8cf;
+}
+
 .btn-outline-primary:hover {
     color: #fff;
     background-color: #83b8cf;
     border-color: #83b8cf;
 }
 
-.btn-outline-primary {
-    color: #83b8cf;
+.btn-outline-secondary {
+    color: #fff;
     background-color: transparent;
     background-image: none;
-    border-color: #83b8cf;
+    border-color: #d35a52;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #d35a52;
+    border-color: #d35a52;
 }
 
 .primary{
@@ -176,9 +189,10 @@ header{
     height: 100px;
     margin: 10px 0;
 }
-#banner_principal h1{
-  color:#ced8db;
+#banner_principal h1#titulo_banner{
+  color:#fff;
   font-size:65px !important;
+  text-shadow: 2px 2px #7AB4CD;
 }
 #banner_principal p {
     margin: 25px 0 25px 0 ;
@@ -349,7 +363,20 @@ header{
 #continuum_ilc .img-thumbnail{ background-color: rgba(255, 255, 255, 0);}
 
 .continuum_ilc #webinar h1 {
-    margin-top: 25px;
+    margin-top: 35px;
+}
+
+#continuum_ilc h3.contador{
+    font-size: 45px;
+}
+
+#continuum_ilc h3 + spam{
+   color: #fff;
+font-size: 18px;
+}
+
+#continuum_ilc h1#titulo_contador{
+    margin-top: 20px;
 }
 
 /*Testimonios*/
@@ -363,9 +390,16 @@ header{
 }
 
 #testimonios h1{
-    text-shadow: 2px 2px #FFFFFF;
+    text-shadow: 2px 2px #FFFFFF;    
+    font-size: 37px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
+#testimonios .row{
+  height: 250px;
+}
 
 /*Liston Pregunta*/
 #liston_unirte{
@@ -376,22 +410,13 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    padding-bottom: 60px;
+    padding-bottom: 1px;
 }
 
-#liston_unirte h1{
+#liston_unirte h1 b{
+    color: #CED8DB;
     text-shadow: 2px 2px #603A5A;
-}
-
-#testimonios .row{
-  height: 250px;
-}
-
-#testimonios h1 {
-    font-size: 37px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*LogosPatrocinadores*/
