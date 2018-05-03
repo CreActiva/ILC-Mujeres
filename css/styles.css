@@ -58,11 +58,11 @@
   color: #333;
   text-align: center;
   transform: rotateY(180deg);
-  padding: 30px; 
+  padding: 30px;
 }
 
 .theback p{
-  color:#C1C8CA;     
+  color:#C1C8CA;
 }
 
 /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
@@ -189,8 +189,8 @@ header{
     height: 100px;
     margin: 10px 0;
 }
-#banner_principal h1#titulo_banner{
-  color:#fff;
+#banner_principal h1#titulo_banner b{
+  color:#fff !important;
   font-size:65px !important;
   text-shadow: 2px 2px #7AB4CD;
 }
@@ -200,7 +200,7 @@ header{
 }
 
 #banner_principal .video{
-    padding: 25px 0 60px !important;
+    padding: 50px 0 60px 0;
 }
 
 /*Modal Styles*/
@@ -255,6 +255,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    z-index: -2;
 }
 
 #descripcion_webinar .row{
@@ -265,12 +266,16 @@ header{
     color: #fff;
     text-shadow: 2px 2px #d35a52;
 }
+#descripcion_webinar p{
+    50px;
+}
 
 #descripcion_webinar p::before {
     position: relative;
     display: inline-flex;
     top: 1.2em;
     margin-right: 10px;
+    z-index: 1;
 }
 #descripcion_webinar p#descripcion_uno::before {
     content: url(../images/numero1.png);
@@ -390,7 +395,7 @@ font-size: 18px;
 }
 
 #testimonios h1{
-    text-shadow: 2px 2px #FFFFFF;    
+    text-shadow: 2px 2px #FFFFFF;
     font-size: 37px;
     text-align: center;
     margin-top: 25px;
@@ -435,4 +440,8 @@ font-size: 18px;
 
 .img-thumbnail{
     border:none !important;
+}
+
+#facebook_comentarios{
+    padding: 40px 0;
 }
