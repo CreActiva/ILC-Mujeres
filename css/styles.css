@@ -115,7 +115,7 @@ p {
 }
 
 .btn-outline-secondary {
-    color: #fff;
+    color: #D35A52;
     background-color: transparent;
     background-image: none;
     border-color: #d35a52;
@@ -154,7 +154,11 @@ p {
     color: #5da2c0;
 }
 .dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
-    color: #f3d175;
+    color: #327BDF;
+}
+
+.dark p,.dark p,.dark p,.dark p,.dark p,.dark p{
+    color: #D35A52;
 }
 
 /*Header*/
@@ -182,18 +186,18 @@ header{
     padding: 50px 0 40px 0;
 }
 #banner_principal .logo img {
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   margin: 25px 0 25px 0;
 }
 #banner_principal .logo_nahil img{
-    width:100px;
-    height: 76px;
-    margin: 25px 0;
+    width:80px;
+    height: 60px;
+    margin: 20px 0;
 }
 #banner_principal .logo_alexandra img{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     margin: 10px 0;
 }
 #banner_principal h1#titulo_banner b{
@@ -334,8 +338,8 @@ header{
 }
 
 #facilitadoras img.facilitadora-img{
-    width: 300px;
-    height: 290px;
+    width: 400px;
+    margin-top: 35px;
 }
 
 #facilitadoras h1 spam, #facilitadoras h1 b{
