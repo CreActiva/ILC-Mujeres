@@ -152,7 +152,6 @@ p {
 
 /*Header*/
 header{
-    background-image: url('../images/background_banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -251,7 +250,6 @@ header{
 #descripcion_webinar{
     padding: 0 0 0 0;
     background-color: #83b8cf;
-    background-image: url("../images/fondo_azul.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -294,7 +292,6 @@ header{
 #descripcion_regalo{
     padding: 0 0 0 0;
     background-color: #83b8cf;
-    background-image: url("../images/fondo_rosa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -322,7 +319,6 @@ header{
 #facilitadoras{
     padding: 0 0 0 0;
     background-color: #ced8db;
-    background-image: url("../images/fondo_gris.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -354,7 +350,6 @@ header{
 #continuum_ilc{
   padding: 0 0 0 0;
     background-color: #83b8cf;
-    background-image: url("../images/fondo_azul.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -388,7 +383,6 @@ font-size: 18px;
 #testimonios{
   padding: 0 0 0 0;
     background-color: #83b8cf;
-    background-image: url("../images/fondo_rosa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -411,7 +405,6 @@ font-size: 18px;
     text-align: center;
     padding: 0 0;
     background-color: #83b8cf;
-    background-image: url("../images/fondo_rojo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
